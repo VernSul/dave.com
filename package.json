@@ -1,0 +1,40 @@
+{
+  "name": "dave.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 100000 test/test.js",
+    "server": "nodemon server/server.js",
+    "build": "react-scripts build",
+    "start": "concurrently \"npm run server\" \"google-chrome http://localhost:4000\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "expect": "^24.5.0",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "pg": "^7.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sequelize": "^5.2.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "react-scripts": "^2.1.8",
+    "request": "^2.88.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}

@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(93, 218, 91);
+}
+
+
+.App form {
+    margin: -100px auto;
+    width: 400px;
+    height: 600px;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    background: white;
+}
+.App img {
+    margin: 20px;
+}
+.App h1 {
+    margin-left: 20px;
+    top: 40px;
+
+
+}
+
+.App label {
+    margin: 20px;
+    display: block;
+
+}
+
+.App input, textarea  {
+    margin: 10px;
+    display: block;
+    margin-left: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(179, 179, 179);
+    background: rgba(93, 218, 91, 0.205);
+}
+
+.App textarea {
+    width: 80%;
+    height: 70px;
+}
+
+.App #submit {
+    float: right;
+    background: white;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: 1px solid rgb(179, 179, 179);
+    height: 30px;
+    width: 70px;
+}
+
+.App table {
+    margin: -80px auto;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    background: white;
+}
